@@ -1,6 +1,9 @@
-*{
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,900);*{
 	margin: 0;
 	padding: 0;
+	font-weight: 500;
+	font-family: roboto, sans-serif;
 }
 body{
 	background: #fff;
@@ -12,7 +15,7 @@ header nav{
 	width: 90%;
 	max-width: 1000px;
 	margin: 20px auto;
-	background: #8852ff;
+	background: #000;
 }
 .menu_bar{
 	display: none;
@@ -28,10 +31,13 @@ header nav ul li a{
 	color:#FFF;
 	padding: 20px;
 	text-decoration: none;
-	display: inline-block;
+	display: block;
+	font-weight: 500;
+	font-family: Roboto, sans-serif;
+	text-transform: uppercase;
 }
 header nav ul li a:hover{
-	background-color:#03780a;
+	background-color:#cc3320;
 }
 header nav ul li span{
 	margin-right: 10px;
@@ -60,7 +66,7 @@ section{
 	.menu_bar .bt-menu{
 		display: block;
 		padding: 20px;
-		background: #543245;
+		background: #000;
 		color:#FFF;
 		text-decoration: none;
 		font-weight: bold;
